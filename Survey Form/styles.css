@@ -1,0 +1,72 @@
+/* include the padding and border in an element's total width and height. */
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-weight: 400px;
+  line-height: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+h1,
+p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+body {
+  font-family: Tahoma;
+  font-size: 16px;
+  margin: 20px;
+  background-color: white;
+}
+
+form {
+  width: 75%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 4px 10px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  border-radius: 0.25rem;
+  margin: auto;
+}
+
+textarea {
+  width: 100%;
+  resize: vertical;
+  padding: 15px;
+  border: none;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+  height: 100px;
+}
+
+fieldset {
+  border: none;
+  margin: 15px;
+}
+
+input[type="submit"] {
+  display: block;
+  padding: 10px;
+  border: none;
+  background-color: #36486b;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+  width: 25%;
+  margin: 10px auto 5px auto;
+  cursor: pointer;
+}
+
+.form-group {
+  display: block;
+  margin: 25px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 25%;
+}
